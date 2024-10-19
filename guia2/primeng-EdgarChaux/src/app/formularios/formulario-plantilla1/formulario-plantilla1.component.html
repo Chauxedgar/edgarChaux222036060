@@ -1,0 +1,9 @@
+<p>formulario-plantilla1 works!</p>
+<div class="card flex justify-content-center">
+    <input type="text" pInputText [(ngModel)]="value"  placeholder="Nombre de usuario"/>
+    <p>Valor ingresado: {{ value }}</p>
+</div>
+<div class="card flex justify-content-center">
+    <p>Valor ingresado: {{ password }}</p>
+    <p-password [(ngModel)]="password" placeholder="Contraseña"></p-password>
+</div>
