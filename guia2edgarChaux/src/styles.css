@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+h2 {
+    color: #ff4900;
+    font-size: 2rem;
+    }
+p {
+    font-size: 16px; /* Equivalente a 1rem */
+    color: #0093FF;
+    font-family: Arial, sans-serif;
+    }
+
+.p-nerko {
+    font-size: 12px;
+    color: #c500ff;
+    font-family: 'Nerko One', cursive;
+    }
+
+a {
+    color: #001bff;
+    font-weight: bold;
+    text-decoration: none;
+    }
+
+a:visited {
+    color: #4CAF50;
+    }
+
+a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+    }
+
+    table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    }
+
+th {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1.5rem;
+    }
+
+tr:nth-child(1),
+tr:nth-child(3) {
+    background-color: #bec1c3;
+    color: #000000;
+    font-size: 1.5rem;
+    }
+
+tr:nth-child(2) {
+    background-color: #045795;
+    color: #ffffff;
+    font-size: 1.5rem;
+    }
+.contenedor {
+        border: 2px solid #ccc;
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 800px;
+    }
+
+.header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f1f1f1;
+        padding: 10px;
+    }
+
+.logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #333;
+    }
+
+.buscador {
+        font-size: 1rem;
+        color: #666;
+    }
+
+.footer {
+        margin-top: 20px;
+        background-color: #ddd;
+        padding: 10px;
+        text-align: center;
+        color: #333;
+    }
