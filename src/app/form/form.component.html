@@ -1,0 +1,9 @@
+<form [formGroup]="Form" (ngSubmit)="onSubmit()">
+    <app-user [Form]="Form"></app-user>
+    <app-manager [Form]="vForm"></app-manager>
+    <app-data [Form]="Form"></app-data>
+    <p></p>
+    <button pButton style="width: 100%;" type="submit" label="Enviar" [disabled]="Form.invalid"></button>
+</form>
+
+

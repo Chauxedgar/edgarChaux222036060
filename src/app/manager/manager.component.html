@@ -1,0 +1,25 @@
+
+<div [formGroup]="vacationsForm">
+    <!-- <form > -->
+        <div class="p-field">
+            <p><b>Nombre del gerente</b></p>
+            <input id="name_g" type="text" pInputText formControlName = "name_g" class="w-full">
+            <div *ngIf="vacationsForm.controls['name_g'].invalid && vacationsForm.controls['name_g'].touched" class="error">
+                El nombre del gerente es requerido
+            </div>
+        </div>
+        <div class="p-field">
+            <label for="email_g"><p><b>Correo electrónico del gerente</b></p></label>
+            <div  class="p-inputgroup">
+                <span class="p-inputgroup-addon">
+                    <i class="pi pi-envelope"></i>
+                </span>
+                <input id="email_g" type="email_g" pInputText formControlName = "email_g">
+            </div>
+            <div *ngIf="vacationsForm.controls['email_g'].invalid && vacationsForm.controls['email_g'].touched" class="error">
+                Correo del gerente no valido
+            </div>
+        </div>
+    <!-- </form> -->
+</div> 
+
